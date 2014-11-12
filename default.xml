@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <remote name="fling2flint" fetch="https://github.com/fling2flint/" />
+  <remote name="openflint" fetch="https://github.com/openflint/" />
+
+  <default revision="matchstick" remote="fling2flint" sync-j="1"/>
+
+  <!-- ios projects -->
+  <project name="flint-ios-sender-sdk" path="flint-ios-sender-sdk"/>
+  <project name="fling_videos_sender_ios" path="fling_videos_sender_ios" remote="openflint" revision="master"/>
+  <project name="matchstick-settings-ios" path="matchstick-settings-ios"/>
+
+  <!-- android projects -->
+  <project name="flint-android-sender-sdk" path="flint-android-sender-sdk"/>
+  <project name="fling_videos_sender_android" path="fling_videos_sender_android" remote="openflint" revision="master"/>
+  <project name="matchstick-settings-android" path="matchstick-settings-android"/>  
+  <project name="it-base" path="it-base" remote="openflint" revision="master" />
+
+</manifest>
